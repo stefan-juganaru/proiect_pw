@@ -1,0 +1,29 @@
+.ContactPage {
+  text-align: justify;
+
+  form {
+    .TextBox {
+      color: white;
+      background-color: #404040;
+      border: none;
+      min-width: 50%;
+      min-height: 100px;
+      font-size: 25px;
+      padding-left: 5px;
+      margin-bottom: 10px;
+    }
+
+    .SendButton {
+      color: white;
+      background-color: #404040;
+      border: none;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    .SendButton:hover {
+      background-color: #404040;
+    }
+  }
+}

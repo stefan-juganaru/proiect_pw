@@ -1,0 +1,163 @@
+.ButtonsContainer {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .NavigationButton {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 50%;
+    margin: 0 5px;
+    height: 32px;
+  }
+
+  .NavigationButton:hover {
+    background-color: #60CF70;
+    border-color: #60CF70;
+  }
+
+  .ChoiceButton {
+    color: white;
+    width: 450px;
+    height: 220px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 0 5px;
+    border-width: 4px;
+    word-wrap: break-word;
+    display: inline-block;
+
+    .CheckMark {
+      display: flex;
+      position: absolute;
+      top:135px;
+      font-size: 50px;
+      margin-left: 10px;
+    }
+
+    .Percent {
+      font-size: 40px;
+    }
+
+    .Count {
+      position: relative;
+      font-size: 30px;
+    }
+
+    .Answer {
+      position: relative;
+      top: 10px;
+      font-size: 18px;
+    }
+  }
+
+  #blue_button {
+    background-color: #23a6d1;
+    border-color: #23a6d1;
+  }
+
+  #blue_button:hover {
+    background-color: #50a0ff;
+    border-color: #50a0ff;
+  };
+
+  #red_button {
+    background-color: #fb5731;
+    border-color: #fb5731;
+  }
+
+  #red_button:hover {
+    background-color: #FF3030;
+    border-color: #FF3030;
+  }
+
+  #or {
+    display: inline;
+    margin: 0 5px;
+    font-size: 30px;
+  }
+}
+
+.ScoreContainer {
+  .Score {
+    position: relative;
+    left: 225px;
+    background-color: #303030;
+    font-size: 70px;
+    padding: 0 25px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  #like {
+    color: orange;
+  }
+
+  #selected-like {
+    background-color: orange;
+    color: #303030;
+  }
+
+  #dislike {
+    color: lightblue;
+  }
+
+  #selected-dislike {
+    background-color: lightblue;
+    color: #303030;
+  }
+
+  .Score:hover {
+    background-color: #404040;
+  }
+}
+
+.Report {
+  position: absolute;
+  margin-top: 18px;
+  left: 225px;
+  border: none;
+  background-color: #303030;
+  color: white;
+  padding: 10px 25px;
+  font-size: 35px;
+  border-radius: 5px;
+}
+
+.Report:hover {
+  background-color: #404040;
+}
+
+.SubmitQuestion {
+  position: absolute;
+  top: 475px;
+
+  h1 {
+    float: left;
+  }
+
+  input {
+    display: block;
+    background-color: #303030;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .Send {
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  .Send:hover {
+    background-color: #404040;
+  }
+}

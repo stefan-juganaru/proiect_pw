@@ -1,0 +1,34 @@
+.Collapsible {
+  background-color: #70806B;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Collapsible:hover {
+  background-color: slategrey;
+}
+
+.CollapsibleContent {
+  color: white;
+  padding: 0 18px;
+  display: block;
+  overflow: hidden;
+  background-color: grey;
+  font-size: 18px;
+  -moz-hyphens:auto;
+  -ms-hyphens:auto;
+  -webkit-hyphens:auto;
+  hyphens:auto;
+  word-wrap:break-word;
+}
+
+.CollapsibleContentHidden {
+  display: none;
+}

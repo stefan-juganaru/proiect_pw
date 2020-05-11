@@ -1,0 +1,67 @@
+.Account {
+  position: absolute;
+  top: 50px;
+  /* left: 10px; */
+  text-decoration: none;
+  float: right;
+  right: 0px;
+
+  .Logout {
+    color: black;
+    // background-color: #202020;
+    text-decoration: none;
+    border: none;
+  }
+
+  .Dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 18px;
+  }
+
+  .DropdownContent {
+    display: block;
+    position: absolute;
+    background-color: #303030;
+    min-width: 160px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+
+    .AccountForm {
+      input {
+        margin: 4px;
+        padding: 2px 8px;
+        background-color: #404040;
+        border: none;
+        color: white;
+      }
+
+      .Submit {
+        float:left;
+        padding: 5px 10px ;
+      }
+
+      .Message {
+        font-size:14px;
+        float: left;
+        margin-left: 5px;
+        margin-top: 7px;
+      }
+    }
+  }
+
+
+  .DropdownButton {
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    background-color: #202020;
+    border: none;
+  }
+
+  .DropdownButton:hover {
+    background-color: #252525;
+  }
+}

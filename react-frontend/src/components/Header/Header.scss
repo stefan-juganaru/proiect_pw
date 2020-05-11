@@ -1,0 +1,30 @@
+.Header {
+    height: 100px;
+
+    .Title {
+        position: absolute;
+        left: 0;
+        top: 21px;
+        font-size: 25px;
+        color: #3e8eff;
+    }
+
+    .Nav {
+        position: absolute;
+        top: 40px;
+        margin-top: 10px;
+
+        ul {
+            list-style-type: none;
+            .NavLink {
+                display: inline-block;
+                text-decoration: none;
+                padding: 10px;
+            }
+
+            .NavLink:hover {
+                color: blue;
+            }
+        }
+    }
+}
