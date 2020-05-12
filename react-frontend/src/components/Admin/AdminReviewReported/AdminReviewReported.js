@@ -194,7 +194,7 @@ class AdminReviewReported extends React.Component {
     render() {
         return (
             <div className={'AdminReviewReported'}>
-                <a href="#" className="reportedQuestions" onClick={this.handleReportQuestion}>Reported Questions</a>
+                <a className="reportedQuestions" onClick={this.handleReportQuestion}>Reported Questions</a>
                 <br />
                 <br />
                 {this.state.reportFlag ?
