@@ -194,7 +194,7 @@ class AdminReviewUserSubmitted extends React.Component {
     render() {
         return (
             <div className={'AdminReviewUserSubmitted'}>
-                <a href="#" className="usersubmitquestion" onClick={this.userSubmitQuestion}>Users' Questions</a>
+                <a className="usersubmitquestion" onClick={this.userSubmitQuestion}>Users' Questions</a>
                 <br />
                 <br />
                 {this.state.usersubmitFlag ?
