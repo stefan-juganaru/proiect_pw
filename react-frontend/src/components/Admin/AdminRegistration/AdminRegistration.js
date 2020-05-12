@@ -70,7 +70,7 @@ class AdminRegistration extends React.Component {
     render() {
         return (
             <div className={'AddAdmin'}>
-                <a className="addAccount" href="#" onClick={this.handleAddAccount}>User management</a>
+                <a className="addAccount" onClick={this.handleAddAccount}>User management</a>
                 <br />
                 <br />
                 {this.state.addFlag ?
